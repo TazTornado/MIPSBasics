@@ -3,7 +3,7 @@
 # pseudoindtructions & system calls examples    #
 # t0 - holds each byte from string in turn      #
 # t1 - contains count of characters             #
-#t2 - points to the string                      #
+# t2 - points to the string                     #
 #################################################
 
 ##########################
