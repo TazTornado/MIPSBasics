@@ -19,7 +19,7 @@ __start:
         la $t2,str          # t2 points to the string
         li $t1,0            # t1 holds the count
 
-nextCh: lb $t0,0($t2)        # get a byte from string
+nextCh: lb $t0,0($t2)       # get a byte from string
         beqz $t0,strEnd     # zero means end of string
         add $t1,$t1,1       # increment count
         add $t2,1           # move pointer one character
