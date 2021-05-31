@@ -19,7 +19,7 @@
 # THE KEY here is to convert the 	#
 # numbers from their ascii code to 	#
 # their numeric value by doing: 	#
-# digit - '0'. Don't burn too many 	#
+# digit - '0'. Don't fry too many 	#
 # braincells with all the loops	:)	#
 #####################################
 
