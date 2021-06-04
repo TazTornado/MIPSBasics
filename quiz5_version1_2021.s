@@ -41,3 +41,5 @@ main:
         or $s4, $s4, $s1    # $s4 = 0x00BBCCDD
         or $s4, $s4, $s0
 
+		li $v0, 10
+		syscall

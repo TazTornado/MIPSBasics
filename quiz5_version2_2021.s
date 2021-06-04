@@ -27,3 +27,6 @@ main:
         or $s4, $s3, $s2
         or $s4, $s4, $s1
         or $s4, $s4, $s0
+
+		li $v0, 10
+		syscall

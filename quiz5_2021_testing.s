@@ -26,13 +26,14 @@ main:
 		sw $s2, stored2
 		sw $s3, stored3
 
-		lw $s0, stored0
-		lw $s1, stored1 + 1
-		lw $s2, stored2 + 2
-		lw $s3, stored3 + 3
+		lb $s0, stored0
+		lb $s1, stored1 + 1
+		lb $s2, stored2 + 2
+		lb $s3, stored3 + 3
 
 		or $s4, $s0, $s1
 		or $s4, $s4, $s2
 		or $s4, $s4, $s3
 
-
+		li $v0, 10
+		syscall
