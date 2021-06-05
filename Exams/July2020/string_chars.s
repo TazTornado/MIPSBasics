@@ -84,9 +84,9 @@ main_loop:
 			lb $t0, str($s0)		# load a character
 			
 			blt $t0, $s4, case_others	####################
-			blt $t0, $s5, case_caps		# check boundaries #
+			ble $t0, $s5, case_caps		# check boundaries #
 			blt $t0, $s6, case_others	# of character     #
-			blt $t0, $s7, case_lower	####################
+			ble $t0, $s7, case_lower	####################
 
 		case_others:
 			addi $t1, $t1, 1	# others counter++
